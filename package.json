@@ -1,0 +1,32 @@
+{
+    "name": "ajax-playground",
+    "version": "0.1.0",
+    "description": "",
+    "main": "Gruntfile.js",
+    "dependencies": {
+        "grunt": "~0.4.2",
+        "grunt-cli": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-jshint": "*",
+        "express" : "3.4.8"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/piotrkowalczuk/ajax-playground.git"
+    },
+    "author": {
+        "name": "Piotr Kowalczuk",
+        "email": "p.kowalczuk.priv@gmail.com",
+        "url": "https://github.com/piotrkowalczuk/"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/piotrkowalczuk/ajax-playground/issues"
+    },
+    "homepage": "https://github.com/piotrkowalczuk/ajax-playground"
+}

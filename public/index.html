@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ajax Playground</title>
+
+
+    <link rel="stylesheet" href="/public/vendors/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/public/css/main.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <div class="page-header">
+                <h1>AJAX <small>playground</small></h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <div class="progress">
+                <div class="progress-bar ui-progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <button class="btn btn-primary start-button ui-start-button">Fetch Data</button>
+            <button class="btn btn-warning reset-button ui-reset-button">Reset</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <h3>Results:</h3>
+            <div class="well ui-history-field"></div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="/public/vendors/jQuery/dist/jquery.min.js"></script>
+<script src="/public/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/public/vendors/jquery-session.js"></script>
+<script src="/public/dist/application.min.js"></script>
+</html>

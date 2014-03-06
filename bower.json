@@ -1,0 +1,23 @@
+{
+    "name": "ajax-playground",
+    "version": "0.1.0",
+    "homepage": "",
+    "authors": [
+        "Piotr Kowalczuk <p.kowalczuk.priv@gmail.com>"
+    ],
+    "main": "index.html",
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jQuery": "~1.10.2",
+        "bootstrap": "~3.0.3",
+        "https://github.com/AlexChittock/JQuery-Session-Plugin.git": "1ffbc4714e87e68c0445c9734f9f5cf7196a59cf"
+    }
+}
