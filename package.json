@@ -9,11 +9,13 @@
         "grunt-contrib-concat": "*",
         "grunt-contrib-watch": "*",
         "grunt-contrib-jshint": "*",
-        "express" : "3.4.8"
+        "express" : "3.4.8",
+        "bower": "*"
     },
     "devDependencies": {},
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "./node_modules/bower/bin/bower install"
     },
     "repository": {
         "type": "git",
